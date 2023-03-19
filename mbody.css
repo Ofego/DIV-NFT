@@ -1,0 +1,91 @@
+.main-body {
+    background-color:rgba(25, 25, 25, 1);
+    height: 3900px;
+    position: absolute;
+    top: 750px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: white;
+}
+
+.market-box {
+    display: flex;
+    flex-direction: column;
+    height: 208px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: -2px -2px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px -3px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    background: rgba(34, 34, 34, 1);
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 40px;
+    padding-top: 24px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.market-box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.market-box p {
+    margin: 0;
+    margin-top: 72px;
+    font-family: 'Texturina', serif;  
+}
+
+.market-logo {
+    width: 40px;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.market-logox {
+    width: 79.61px;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.market-logol {
+    width: 25.45px;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.market-logof {
+    width: 79.61px;
+    margin: 0;
+    margin-top: 24px;
+}
+
+.market-logon {
+    width: 50px;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.nft-market {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.market-nft {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+}
+
+.market-p {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'parabole', 'san-serif';
+}

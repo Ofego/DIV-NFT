@@ -1,0 +1,235 @@
+.main-explore {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 104px;
+    width: 1600px;
+}
+
+.explore-header {
+    font-size: 32px;
+    
+}
+
+.nft-box {
+    background-color: rgba(255, 255, 255, 1);
+    width: 228px;
+    height: 360px;
+    position: relative;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: -2px -2px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px -3px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 10px;
+    margin: 24px 0px 0px 24px;
+    transition: transform 0.3s ease;
+}
+
+.nft-box1 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 228px;
+    height: 360px;
+    position: relative;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: -2px -2px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px -3px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 10px;
+    margin: 24px 0px 0px 24px;
+}
+
+.nft-cir {
+    display: flex;
+    width: 480px;
+}
+
+.explore-pic {
+    height: 166px;
+    width: 199px;
+    margin-left: 8px;
+    margin-top: 52px;
+}
+
+.explore-box {
+    background: rgba(255, 236, 248, 1);
+    width: 400px;
+    height: 485px;
+    padding-top: 12px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.nft-box:hover {
+    cursor: pointer;
+    transform: translate(-100%);
+    cursor: ew-resize;
+}
+.nft-box1:hover {
+    cursor: pointer;
+}
+
+.explore-box button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(233, 55, 171, 1);
+    width: 82px;
+    text-align: center;
+    height: 32px;
+    margin: 24px 0px 0px 24px;
+    transition: transform 0.3s ease;
+    font-size: 16px;
+    color:rgba(38, 2, 25, 1);
+    font-weight: 700;
+    font-family: 'Texturina', serif;  
+}
+
+.explore-box button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.nft-column {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    bottom: 24px;
+    left: 16px;
+}
+
+.nft-owner {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    border: 2px solid rgba(233, 55, 171, 1);
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    margin: 0;
+}
+
+.nft-h {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+    color: rgba(34, 34, 34, 1);
+}
+
+.nft-b {
+    color: rgba(121, 121, 121, 1);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.nft-a {
+    color: rgba(233, 55, 171, 1);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 4px;
+}
+
+.nft-rank {
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    position: absolute;
+    right: 16px;
+    bottom: 24px;
+}
+
+.nft-rank img {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+.nft-rank p {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(38, 2, 25, 1);
+    text-align: center;
+    width: 16px;
+    margin: 0;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.explore-title {
+    display: flex;
+    color: rgba(38, 2, 25, 1);
+    width: 180px;
+    margin: 0;
+    margin-left: 24px;
+}
+
+.larva-title {
+    display: flex;
+    color: rgba(38, 2, 25, 1);
+    width: 180px;
+    margin: 0;
+    margin-left: 24px;
+}
+
+.larva-title p{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: rgba(38, 2, 25, 1);
+    margin-right: 16px;
+    font-family: 'texturina', 'seriff';
+}
+
+.explore-axie {
+    display: flex;
+    color: rgba(38, 2, 25, 1);
+    width: 200px;
+    margin: 0;
+    margin-left: 24px;
+    justify-content: center;
+}
+
+.explore-title img {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.axie-img {
+    width: 47.77px;
+    height: 24px;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.explore-title p {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: rgba(38, 2, 25, 1);
+    margin-right: 16px;
+    font-family: 'texturina', 'seriff';
+}
+
+.axie-tit {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: rgba(38, 2, 25, 1);
+    margin-right: 16px;
+    font-family: 'texturina', 'seriff'; 
+}
+
+.explore-flex {
+    display: flex;
+    width: 1301px;
+    justify-content: space-between;
+}
+
+.larva-img {
+    width: 15.27px;
+    height: 24px;
+}

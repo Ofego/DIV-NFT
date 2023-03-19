@@ -1,0 +1,182 @@
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    height: 328px;
+    width: 298px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -15px 6px 8px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 8px -10px 20px 0px rgba(0, 0, 0, 0.25) inset; 
+    background: radial-gradient(49.86% 56.71% at 57.19% 54.45%, #1D0C87 0%, #530730 100%);
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 48px;
+    padding-top: 24px;
+    position: relative;
+}
+
+.profile-logo {
+    width: 40px;
+    position: absolute;
+    left: 16px;
+    top: 8px;
+    border: 1.5px solid rgba(233, 55, 171, 1);
+    border-radius: 100%;
+}
+
+.r-logo {
+    position: absolute;
+    width: 24px;
+    border-radius: 100%;
+    border: 3px solid rgba(255, 236, 248, 1);
+    background-color: black;
+    top: 8px;
+    right: 36px;
+}
+
+.r-logo1 {
+    position: absolute;
+    width: 24px;
+    border-radius: 100%;
+    border: 3px solid rgba(255, 236, 248, 1);
+    background-color: black;
+    top: 8px;
+    right: 16px;
+}
+
+.axi-logo {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: 3px solid rgba(255, 236, 248, 1);
+    background-color: black;
+    top: 8px;
+    right: 56px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+.axie-logo {
+    width: 17.88px;
+    height: auto;
+    margin: 0;
+}
+
+.larva-logo {
+    width: 7.64px;
+    height: 12px;
+    margin: 0;
+}
+
+.nft-add {
+    background-color: black;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(233, 55, 171, 1);
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    padding: 4px 4px 4px 4px;
+    border: 3px solid rgba(255, 236, 248, 1);
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.op-logo {
+    position: absolute;
+    width: 24px;
+    border-radius: 100%;
+    border: 3px solid rgba(255, 236, 248, 1);
+    background-color: black;
+    top: 8px;
+    right: 16px;   
+}
+
+.op-logo2 {
+    position: absolute;
+    width: 24px;
+    border-radius: 100%;
+    border: 3px solid rgba(255, 236, 248, 1);
+    background-color: black;
+    top: 8px;
+    right: 36px;   
+}
+
+.box1 {
+    width: 266px;
+    height: 166px;
+    margin: 0;
+    margin-top: 44px;
+}
+
+.profile-box p {
+    margin: 0;
+}
+
+.Nft-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin: 0;
+    bottom: 16px;
+    left: 16px;
+    position: absolute;
+}
+
+.Nft-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    color: rgba(255, 236, 248, 1);
+}
+
+.Nft-price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24.96px;
+    color: rgba(121, 121, 121, 1);
+}
+
+.Nft-action {
+font-size: 16px;
+font-weight: 700;
+line-height: 25px;
+color: rgb(233, 55, 171);
+}
+
+.no-bid {
+    display: flex;
+    position: absolute;
+    bottom: 16px;
+    justify-content: center;
+    right: 16px;
+}
+
+.heart-icon {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    margin-right: 8px;
+}
+
+.no-bid {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 236, 248, 1);
+}
+
+.nft-market {
+    display: flex;
+}
+
+.market-nft {
+    margin-top: 104px;
+}
+
+.market-nft1 {
+    margin-top: 104px;
+}

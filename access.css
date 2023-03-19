@@ -1,0 +1,62 @@
+.access {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+.main-access {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+.access-box {
+    background: rgba(34, 34, 34, 1);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: -2px -2px 6px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 3px -3px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 320px;
+    height: 305px;
+    border: none;
+    border-radius: 10px;
+}
+
+.access-box p {
+    font-family: 'texturina', 'serif';
+    text-align: center;
+}
+
+.access-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-left: 140px;
+    margin-top: 24px;
+}
+
+.access-h {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 236, 248, 1);
+    margin: 0;
+    margin-top: 24px;
+
+}
+
+.access-sub {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 36px;
+    color: rgba(153, 153, 153, 1);
+    width: 266px;
+}
+
+.access-word {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 266px;
+    margin-left: auto;
+    margin-right: auto;
+}

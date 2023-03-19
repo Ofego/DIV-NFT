@@ -1,0 +1,67 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.market-place {
+    display: flex;
+    flex-direction: column;
+}
+
+.mp-header {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'parabole', 'san-seriff';
+    font-size: 32px;
+    color:rgba(255, 236, 248, 1);
+}
+
+.mp-sub p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'texturina', 'seriff';
+    color: rgba(153, 153, 153, 1);
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.sign-up {
+    color: rgba(255, 236, 248, 1);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'texturina', 'seriff';
+    width: 288px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.email-box {
+    width: 260px;
+    height: 49px;
+    font-size: 16px;
+    font-weight: 700;
+    color:rgba(255, 236, 248, 1);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+    text-align: left;
+    background: rgba(233, 55, 171, 0.32);
+    border: 0;
+    outline: none;
+    margin: 0;
+    font-family: 'texturina', 'seriff';
+}
+
+.footer-sub {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'texturina', 'seriff';
+    color: rgba(153, 153, 153, 1);
+    margin: 0;
+    margin-top: 32px;
+}
+
